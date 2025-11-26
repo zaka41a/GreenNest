@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./Doc/logo.svg" alt="GreenNest Logo" width="120" height="120">
 
-  # 🌿 GreenNest
+  # 🌱 GreenNest
 
   ### *Your Premium Online Plant Shop*
 
