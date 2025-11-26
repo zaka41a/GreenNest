@@ -1,0 +1,82 @@
+:root { --accent: #2e7d32; --dark: #1b1b1b; --light: #f7f7f7; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, Arial, sans-serif; color: #222; }
+a { color: inherit; text-decoration: none; }
+
+
+.header { display:flex; align-items:center; justify-content:space-between; padding:14px 20px; border-bottom:1px solid #eee; position:sticky; top:0; background:#fff; z-index:10; }
+.brand { font-weight:800; letter-spacing:0.3px; }
+.nav { display:flex; gap:16px; }
+.cartBadge { background: var(--accent); color: #fff; padding: 2px 8px; border-radius: 999px; font-size: 12px; margin-left: 6px; }
+
+
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+.card { border:1px solid #eee; border-radius:12px; overflow:hidden; background:#fff; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+.card img { width:100%; height:160px; object-fit:cover; }
+.cardBody { padding:12px; display:flex; flex-direction:column; gap:8px; }
+.price { font-weight:700; }
+.btn { cursor:pointer; border:none; padding:10px 12px; border-radius:10px; font-weight:600; }
+.btn.primary { background:var(--accent); color:#fff; }
+.btn.outline { background:#fff; border:1px solid #ddd; }
+.btn:disabled { opacity:.55; cursor:not-allowed; }
+
+
+.sectionTitle { margin: 28px 0 12px; font-size: 18px; color:#555; border-left:4px solid var(--accent); padding-left:8px; }
+
+
+.totalBar { display:flex; align-items:center; justify-content:space-between; padding:16px; border:1px solid #eee; border-radius:12px; margin-top:16px; background:#fafafa; }
+.lineItem { display:grid; grid-template-columns: 72px 1fr auto auto auto; gap:12px; align-items:center; padding:12px 0; border-bottom:1px solid #f0f0f0; }
+.qControls { display:inline-flex; border:1px solid #ddd; border-radius:10px; overflow:hidden; }
+.qBtn { padding:6px 10px; border:none; background:#fff; cursor:pointer; }
+.qBtn:hover { background:#f3f3f3; }
+.qty { padding:6px 12px; min-width:36px; text-align:center; }
+.subtle { color:#666; }
+/* --- cards --- */
+.card { border:1px solid #eee; border-radius:12px; overflow:hidden; background:#fff;
+  box-shadow:0 2px 8px rgba(0,0,0,.04); width: 260px; }
+.card img { width:100%; height:200px; object-fit:cover; display:block; }
+.cardBody { padding:12px; display:flex; flex-direction:column; gap:8px; min-height:120px; }
+
+/* --- grid fix: keep same row height --- */
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap:20px; }
+
+/* --- header / logo --- */
+.brandWrap { display:flex; align-items:center; gap:8px; }
+.brandImg { width:28px; height:28px; display:block; }
+.brand { font-weight:800; letter-spacing:.3px; }
+
+/* --- badge --- */
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #e0f2f1;
+  color: #00695c;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+/* --- forms --- */
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
