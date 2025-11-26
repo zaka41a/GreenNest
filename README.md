@@ -524,7 +524,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-  ### Made with ❤️ by Zakaria Sabiri
+  ### Made with ❤️ by Zaka41a
 
   ⭐ Star this repo if you found it helpful!
 
