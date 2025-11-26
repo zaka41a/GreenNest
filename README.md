@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./doc/logo.svg" alt="GreenNest Logo" width="120" height="120">
+  <img src="./Doc/logo.svg" alt="GreenNest Logo" width="120" height="120">
 
   # 🌿 GreenNest
 
