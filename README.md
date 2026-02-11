@@ -505,10 +505,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Zakaria Sabiri**
 
-- Email: zaksab89@gmail.com
+- Email: zaksab98@gmail.com
 - GitHub: [@zaka41a](https://github.com/zaka41a)
-- Project Link: [https://github.com/zaka41a/GreenNest](https://github.com/zaka41a/GreenNest)
-
+- 
 ---
 
 ## 🙏 Acknowledgments
